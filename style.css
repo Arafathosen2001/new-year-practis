@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.benar{
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.con *{margin-bottom: 40px;}
+.con{
+    width: 500px;
+    text-align: right;
+    margin: 15% 0;
+}
+.con h2{
+    font-size: 65px;
+}
+.con p{
+    font-size: 20px;
+    color: #444343;
+}
+.con button{
+    background: #F15B22;
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+.my-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+.my-img .my-year{
+    width: 400px;
+    text-align: left;
+}
+.my-year *{margin-bottom: 20px;}
+.my-year h1{
+    font-size: 55px;
+}
+.my-year p{
+    font-size: 25px;
+    color: #444343;
+}
+ul li{
+    list-style: none;
+}
+.tik{
+    color: red;
+}
+.prev{
+    padding: 50px 0;
+}
